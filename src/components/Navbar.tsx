@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, GraduationCap } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,7 +21,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-20">
           <Link to="/" className="flex items-center space-x-3 group">
             <div className=" p-2 rounded-lg group-hover:scale-110 transition-transform">
-              <img src="src\images\logo.png" alt="" width={46}/>
+              <img src="src/images/logo.png" alt="" width={46}/>
             </div>
             <div>
               <h1 className="text-2xl font-bold text-gray-800">Worldcomp Lenana Academy</h1>
