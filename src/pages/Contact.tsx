@@ -1,5 +1,7 @@
 import { useState, FormEvent } from 'react';
 import { MapPin, Phone, Mail, Clock, Send, CheckCircle } from 'lucide-react';
+import emailjs from "@emailjs/browser";
+// import axios from 'axios';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -18,27 +20,37 @@ const Contact = () => {
     });
   };
 
-  const handleSubmit = async (e: FormEvent) => {
-    e.preventDefault();
-    setIsSubmitting(true);
+const handleSubmit = async (e: FormEvent) => {
+  e.preventDefault();
+  setIsSubmitting(true);
 
-    await new Promise((resolve) => setTimeout(resolve, 1000));
+  try {
+    const response = await emailjs.send(
+      "service_e660vmn",
+      "template_h9wfekb",
+      {
+        name: formData.name,
+        email: formData.email,
+        subject: formData.subject,
+        message: formData.message,
+      },
+      "YZ2VjF-2eSdcHRVwC"
+    );
+
+    console.log("SUCCESS!", response.status, response.text);
 
     setSubmitted(true);
     setIsSubmitting(false);
-
-    setFormData({
-      name: '',
-      email: '',
-      subject: '',
-      message: '',
-    });
+    setFormData({ name: "", email: "", subject: "", message: "" });
 
     setTimeout(() => {
       setSubmitted(false);
     }, 5000);
-  };
-
+  } catch (error) {
+    console.log("FAILED...", error);
+    setIsSubmitting(false);
+  }
+};
   const contactInfo = [
     {
       icon: MapPin,
@@ -127,7 +139,7 @@ const Contact = () => {
                       value={formData.name}
                       onChange={handleChange}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
-                      placeholder="John Doe"
+                      placeholder="Saul Bosire"
                     />
                   </div>
 
