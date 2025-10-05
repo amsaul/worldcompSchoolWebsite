@@ -21,11 +21,11 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-20">
           <Link to="/" className="flex items-center space-x-3 group">
             <div className=" p-2 rounded-lg group-hover:scale-110 transition-transform">
-              <img src="https://i.postimg.cc/3r2DkSrM/logo.png" alt="" width={46}/>
+              <img src="https://i.postimg.cc/3r2DkSrM/logo.png" alt="logo" width={46}/>
             </div>
             <div>
               <h1 className="text-2xl font-bold text-gray-800">Worldcomp Lenana Academy</h1>
-              <p className="text-xs text-gray-500">Learning is Treasure</p>
+              <p className="text-xs text-gray-500">LEARNING IS TREASURE</p>
             </div>
           </Link>
 
