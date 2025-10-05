@@ -47,7 +47,7 @@ const Navbar = () => {
               to="/contact"
               className="px-6 py-2 bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-md text-sm font-medium hover:from-blue-600 hover:to-blue-700 transition-all hover:shadow-lg"
             >
-              Apply Now
+              Join Now
             </Link>
           </div>
 
