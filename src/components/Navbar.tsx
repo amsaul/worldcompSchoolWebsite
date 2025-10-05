@@ -20,8 +20,8 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <Link to="/" className="flex items-center space-x-3 group">
-            <div className="bg-gradient-to-br from-blue-500 to-blue-600 p-2 rounded-lg group-hover:scale-110 transition-transform">
-              <GraduationCap className="h-8 w-8 text-white" />
+            <div className=" p-2 rounded-lg group-hover:scale-110 transition-transform">
+              <img src="src\images\logo.png" alt="" width={46}/>
             </div>
             <div>
               <h1 className="text-2xl font-bold text-gray-800">Worldcomp Lenana Academy</h1>
