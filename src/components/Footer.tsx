@@ -44,6 +44,11 @@ const Footer = () => {
                   Contact
                 </Link>
               </li>
+              <li>
+                <Link to="/contact" className="text-sm hover:text-blue-400 transition-colors">
+                  Teachers Login
+                </Link>
+              </li>
             </ul>
           </div>
 
