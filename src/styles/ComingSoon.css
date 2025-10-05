@@ -1,0 +1,11 @@
+.comingSoon{
+    width: 100%;
+    max-width: 300px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.comingSoon h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
