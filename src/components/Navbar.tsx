@@ -25,7 +25,7 @@ const Navbar = () => {
             </div>
             <div>
               <h1 className="text-2xl font-bold text-gray-800">Worldcomp Lenana Academy</h1>
-              <p className="text-xs text-gray-500">Excellence in Education</p>
+              <p className="text-xs text-gray-500">Learning is Treasure</p>
             </div>
           </Link>
 
