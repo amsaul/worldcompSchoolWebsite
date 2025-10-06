@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
-              <div className="bg-gradient-to-br from-blue-500 to-blue-600 p-2 rounded-lg">
+              <div className="bg-gradient-to-br bg-maroon p-2 rounded-lg">
                 <GraduationCap className="h-6 w-6 text-white" />
               </div>
               <div>
@@ -25,27 +25,27 @@ const Footer = () => {
             <h4 className="text-white font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
               <li>
-                <Link to="/" className="text-sm hover:text-blue-400 transition-colors">
+                <Link to="/" className="text-sm hover:text-maroon transition-colors">
                   Home
                 </Link>
               </li>
               <li>
-                <Link to="/about" className="text-sm hover:text-blue-400 transition-colors">
+                <Link to="/about" className="text-sm hover:text-maroon transition-colors">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link to="/gallery" className="text-sm hover:text-blue-400 transition-colors">
+                <Link to="/gallery" className="text-sm hover:text-maroon transition-colors">
                   Gallery
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="text-sm hover:text-blue-400 transition-colors">
+                <Link to="/contact" className="text-sm hover:text-maroon transition-colors">
                   Contact
                 </Link>
               </li>
               <li>
-                <Link to="/ComingSoon" className="text-sm hover:text-blue-400 transition-colors">
+                <Link to="/ComingSoon" className="text-sm hover:text-maroon transition-colors">
                   Teachers Login
                 </Link>
               </li>
@@ -56,15 +56,15 @@ const Footer = () => {
             <h4 className="text-white font-semibold mb-4">Contact Info</h4>
             <ul className="space-y-3">
               <li className="flex items-start space-x-3">
-                <MapPin className="h-5 w-5 text-blue-400 flex-shrink-0 mt-0.5" />
+                <MapPin className="h-5 w-5 text-maroon flex-shrink-0 mt-0.5" />
                 <span className="text-sm">Nairobi - Kenya, Lenana, P.O Box 7434 - 00200</span>
               </li>
               <li className="flex items-center space-x-3">
-                <Phone className="h-5 w-5 text-blue-400 flex-shrink-0" />
+                <Phone className="h-5 w-5 text-maroon flex-shrink-0" />
                 <span className="text-sm">+254 710 383 439</span>
               </li>
               <li className="flex items-center space-x-3">
-                <Mail className="h-5 w-5 text-blue-400 flex-shrink-0" />
+                <Mail className="h-5 w-5 text-maroon flex-shrink-0" />
                 <span className="text-sm">info@worldcomplenanaacademy.edu</span>
               </li>
             </ul>

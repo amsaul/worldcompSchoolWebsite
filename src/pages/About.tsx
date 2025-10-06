@@ -70,7 +70,7 @@ const About = () => {
 
   return (
     <div className="animate-fade-in">
-      <section className="relative bg-gradient-to-br from-blue-600 to-cyan-500 text-white py-20">
+      <section className="relative bg-maroon text-white py-20">
         <div className="absolute inset-0 bg-black opacity-10"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6 animate-slide-up">About Us</h1>
@@ -108,7 +108,7 @@ const About = () => {
                 alt="School building"
                 className="rounded-2xl shadow-2xl"
               />
-              <div className="absolute -bottom-6 -left-6 bg-gradient-to-br from-blue-500 to-cyan-400 text-white p-6 rounded-xl shadow-xl">
+              <div className="absolute -bottom-6 -left-6 bg-maroon text-white p-6 rounded-xl shadow-xl">
                 <div className="text-4xl font-bold">2+</div>
                 <div className="text-sm">Years of Excellence</div>
               </div>
@@ -120,9 +120,9 @@ const About = () => {
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-            <div className="bg-white rounded-2xl shadow-xl p-8 border-t-4 border-blue-500">
+            <div className="bg-white rounded-2xl shadow-xl p-8 border-t-4 border-bg-maroon-500">
               <div className="flex items-center mb-6">
-                <div className="bg-gradient-to-br from-blue-500 to-blue-600 p-3 rounded-lg">
+                <div className="bg-gradient-to-br bg-maroon p-3 rounded-lg">
                   <Target className="h-8 w-8 text-white" />
                 </div>
                 <h2 className="text-2xl md:text-3xl font-bold text-gray-800 ml-4">Our Mission</h2>
@@ -135,9 +135,9 @@ const About = () => {
               </p>
             </div>
 
-            <div className="bg-white rounded-2xl shadow-xl p-8 border-t-4 border-cyan-500">
+            <div className="bg-white rounded-2xl shadow-xl p-8 border-t-4 border-bg-maroon">
               <div className="flex items-center mb-6">
-                <div className="bg-gradient-to-br from-cyan-500 to-cyan-600 p-3 rounded-lg">
+                <div className="bg-gradient-to-br bg-maroon p-3 rounded-lg">
                   <Eye className="h-8 w-8 text-white" />
                 </div>
                 <h2 className="text-2xl md:text-3xl font-bold text-gray-800 ml-4">Our Vision</h2>
@@ -168,7 +168,7 @@ const About = () => {
                 key={index}
                 className="bg-gradient-to-br from-white to-gray-50 rounded-xl shadow-lg p-6 border border-gray-100 hover:shadow-xl transition-all transform hover:-translate-y-2"
               >
-                <div className="bg-gradient-to-br from-blue-500 to-cyan-400 w-14 h-14 rounded-lg flex items-center justify-center mb-4">
+                <div className=" bg-maroon w-14 h-14 rounded-lg flex items-center justify-center mb-4">
                   <value.icon className="h-7 w-7 text-white" />
                 </div>
                 <h3 className="text-xl font-bold text-gray-800 mb-2">{value.title}</h3>
@@ -179,10 +179,10 @@ const About = () => {
         </div>
       </section>
 
-      <section className="py-16 bg-gradient-to-br from-blue-50 to-cyan-50">
+      <section className="py-16 bg-gradient-to-br bg-maroon">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-black-800 mb-4">
               Academic Excellence
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
@@ -193,7 +193,7 @@ const About = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white rounded-xl shadow-lg p-8">
               <div className="flex items-center mb-4">
-                <div className="bg-gradient-to-br from-blue-500 to-blue-600 p-3 rounded-lg">
+                <div className="bg-gradient-to-br bg-maroon p-3 rounded-lg">
                   <BookOpen className="h-6 w-6 text-white" />
                 </div>
                 <h3 className="text-xl font-bold text-gray-800 ml-4">Our Curriculum</h3>
@@ -224,7 +224,7 @@ const About = () => {
 
             <div className="bg-white rounded-xl shadow-lg p-8">
               <div className="flex items-center mb-4">
-                <div className="bg-gradient-to-br from-cyan-500 to-cyan-600 p-3 rounded-lg">
+                <div className="bg-gradient-to-br bg-maroon p-3 rounded-lg">
                   <Globe className="h-6 w-6 text-white" />
                 </div>
                 <h3 className="text-xl font-bold text-gray-800 ml-4">
@@ -273,7 +273,7 @@ const About = () => {
                 </div>
                 <div className="p-6 text-center">
                   <h3 className="text-xl font-bold text-gray-800 mb-1">{member.name}</h3>
-                  <p className="text-blue-600 font-medium">{member.position}</p>
+                  <p className="text-maroon font-medium">{member.position}</p>
                 </div>
               </div>
             ))}
@@ -281,15 +281,15 @@ const About = () => {
         </div>
       </section>
 
-      <section className="py-16 bg-gradient-to-br from-blue-600 to-cyan-500 text-white">
+      <section className="py-16 bg-gradient-to-br bg-maroon text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Join Our Family</h2>
-          <p className="text-xl mb-8 text-blue-50">
+          <p className="text-xl mb-8 text-maroon-50">
             Experience the difference of a school that truly cares about your child's future
           </p>
           <a
             href="/contact"
-            className="inline-block px-8 py-4 bg-white text-blue-600 rounded-lg font-semibold hover:bg-blue-50 transition-all hover:shadow-xl transform hover:-translate-y-1"
+            className="inline-block px-8 py-4 bg-white text-maroon rounded-lg font-semibold hover:bg-blue-50 transition-all hover:shadow-xl transform hover:-translate-y-1"
           >
             Schedule a Visit
           </a>

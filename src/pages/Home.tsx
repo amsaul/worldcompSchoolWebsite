@@ -48,7 +48,7 @@ const Home = () => {
 
   return (
     <div className="animate-fade-in">
-      <section className="relative bg-gradient-to-br from-blue-600 via-blue-500 to-cyan-400 text-white overflow-hidden">
+      <section className="relative bg-gradient-to-br bg-maroon text-white overflow-hidden">
         <div className="absolute inset-0 bg-black opacity-10"></div>
         <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmYiIGZpbGwtb3BhY2l0eT0iMC4xIj48cGF0aCBkPSJNMzYgMzRjMC0yLjIxLTEuNzktNC00LTRzLTQgMS43OS00IDQgMS43OSA0IDQgNCA0LTEuNzkgNC00em0wLTEwYzAtMi4yMS0xLjc5LTQtNC00cy00IDEuNzktNCA0IDEuNzkgNCA0IDQgNC0xLjc5IDQtNHptMC0xMGMwLTIuMjEtMS43OS00LTQtNHMtNCAxLjc5LTQgNCAxLjc5IDQgNCA0IDQtMS43OSA0LTR6Ii8+PC9nPjwvZz48L3N2Zz4=')] opacity-20"></div>
 
@@ -67,14 +67,14 @@ const Home = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 to="/contact"
-                className="inline-flex items-center justify-center px-8 py-4 bg-white text-blue-600 rounded-lg font-semibold hover:bg-blue-50 transition-all hover:shadow-xl transform hover:-translate-y-1"
+                className="inline-flex items-center justify-center px-8 py-4 bg-white text-maroon rounded-lg font-semibold hover:bg-blue-50 transition-all hover:shadow-xl transform hover:-translate-y-1"
               >
                 Join Now
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
               <Link
                 to="/about"
-                className="inline-flex items-center justify-center px-8 py-4 bg-transparent border-2 border-white text-white rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-all"
+                className="inline-flex items-center justify-center px-8 py-4 bg-transparent border-2 border-white text-white rounded-lg font-semibold hover:bg-white hover:text-maroon transition-all"
               >
                 Learn More
               </Link>
@@ -87,21 +87,16 @@ const Home = () => {
 
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-gradient-to-br from-amber-50 to-orange-50 rounded-2xl shadow-lg p-8 md:p-12 border border-amber-100">
+          <div className=" rounded-2xl  p-8 md:p-12 ">
             <div className="flex flex-col md:flex-row items-center gap-8">
-              <div className="w-32 h-32 bg-gradient-to-br from-amber-400 to-orange-500 rounded-full flex items-center justify-center flex-shrink-0 shadow-xl">
+              {/* <div className="w-32 h-32 bg-gradient-to-br from-amber-400 to-orange-500 rounded-full flex items-center justify-center flex-shrink-0 shadow-xl">
                 <Users className="h-16 w-16 text-white" />
-              </div>
-              <div className="flex-1">
-                <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4">
+              </div> */}
+              <div className="flex-1 justify-center align-center">
+                <h2 className="text-2xl md:text-3xl text-center font-bold text-gray-800 mb-4">
                   A Message from Our Principal
                 </h2>
-                <p className="text-gray-700 mb-4 leading-relaxed">
-                  "Welcome to Worldcomp Lenana Academy, where we believe every child has unique talents
-                  waiting to be discovered. Our dedicated team of educators is committed to providing
-                  a safe, inclusive, and inspiring environment where students can thrive academically,
-                  socially, and emotionally."
-                </p>
+                <iframe className="rounded-2xl" allow="fullscreen;autoplay"  height="478" src="https://streamable.com/e/fhcvcn?autoplay=1&muted=1" width="100%"></iframe>
                 <p className="text-gray-600 italic">
                   — Dr. Lorem Ipsum, Principal
                 </p>
@@ -129,7 +124,7 @@ const Home = () => {
                 className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-all transform hover:-translate-y-2 animate-scale-in"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
-                <div className="bg-gradient-to-br from-blue-500 to-cyan-400 w-14 h-14 rounded-lg flex items-center justify-center mb-4">
+                <div className="bg-gradient-to-br bg-maroon w-14 h-14 rounded-lg flex items-center justify-center mb-4">
                   <highlight.icon className="h-7 w-7 text-white" />
                 </div>
                 <h3 className="text-xl font-bold text-gray-800 mb-2">{highlight.title}</h3>
@@ -156,7 +151,7 @@ const Home = () => {
                 className="bg-gradient-to-br from-white to-gray-50 rounded-xl shadow-lg p-6 border border-gray-100 hover:shadow-xl transition-all transform hover:-translate-y-1"
               >
                 <div className="flex items-start mb-4">
-                  <div className="bg-gradient-to-br from-blue-500 to-blue-600 p-3 rounded-lg">
+                  <div className=" bg-maroon p-3 rounded-lg">
                     <announcement.icon className="h-6 w-6 text-white" />
                   </div>
                   <div className="ml-4 flex-1">
@@ -173,7 +168,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="py-16 bg-gradient-to-br from-blue-600 to-cyan-500 text-white">
+      <section className="py-16 bg-gradient-to-br bg-maroon text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Ready to Join Our Community?
@@ -183,7 +178,7 @@ const Home = () => {
           </p>
           <Link
             to="/contact"
-            className="inline-flex items-center px-8 py-4 bg-white text-blue-600 rounded-lg font-semibold hover:bg-blue-50 transition-all hover:shadow-xl transform hover:-translate-y-1"
+            className="inline-flex items-center px-8 py-4 bg-white text-maroon rounded-lg font-semibold hover:bg-blue-50 transition-all hover:shadow-xl transform hover:-translate-y-1"
           >
             Get Started Today
             <ArrowRight className="ml-2 h-5 w-5" />

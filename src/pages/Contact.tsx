@@ -76,7 +76,7 @@ const handleSubmit = async (e: FormEvent) => {
 
   return (
     <div className="animate-fade-in">
-      <section className="relative bg-gradient-to-br from-blue-600 to-cyan-500 text-white py-20">
+      <section className="relative bg-gradient-to-br bg-maroon text-white py-20">
         <div className="absolute inset-0 bg-black opacity-10"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6 animate-slide-up">Contact Us</h1>
@@ -96,7 +96,7 @@ const handleSubmit = async (e: FormEvent) => {
                 className="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition-all transform hover:-translate-y-1 animate-scale-in"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
-                <div className="bg-gradient-to-br from-blue-500 to-cyan-400 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
+                <div className="bg-gradient-to-br bg-maroon w-12 h-12 rounded-lg flex items-center justify-center mb-4">
                   <info.icon className="h-6 w-6 text-white" />
                 </div>
                 <h3 className="text-lg font-bold text-gray-800 mb-2">{info.title}</h3>
@@ -200,7 +200,7 @@ const handleSubmit = async (e: FormEvent) => {
                   <button
                     type="submit"
                     disabled={isSubmitting}
-                    className="w-full bg-gradient-to-r from-blue-500 to-cyan-400 text-white py-4 rounded-lg font-semibold hover:from-blue-600 hover:to-cyan-500 transition-all hover:shadow-lg transform hover:-translate-y-1 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center"
+                    className="w-full bg-gradient-to-r bg-maroon text-white py-4 rounded-lg font-semibold hover:from-blue-600 hover:to-cyan-500 transition-all hover:shadow-lg transform hover:-translate-y-1 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center"
                   >
                     {isSubmitting ? (
                       <>
@@ -231,7 +231,7 @@ const handleSubmit = async (e: FormEvent) => {
                 ></iframe>
               </div>
 
-              <div className="bg-gradient-to-br from-blue-600 to-cyan-500 rounded-2xl shadow-xl p-8 text-white">
+              <div className="bg-gradient-to-br bg-maroon rounded-2xl shadow-xl p-8 text-white">
                 <h3 className="text-2xl font-bold mb-4">Visit Our Campus</h3>
                 <p className="mb-4">
                   Experience our facilities firsthand! Schedule a campus tour and see why Worldcomp
@@ -277,14 +277,14 @@ const handleSubmit = async (e: FormEvent) => {
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
                   href="tel:+254710383439"
-                  className="inline-flex items-center justify-center px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-all"
+                  className="inline-flex items-center justify-center px-6 py-3 bg-maroon text-white rounded-lg font-semibold hover:bg-maroon-100 transition-all"
                 >
                   <Phone className="h-5 w-5 mr-2" />
                   Call Us Now
                 </a>
                 <a
                   href="mailto:admissions@worldcomplenanaacademy.edu"
-                  className="inline-flex items-center justify-center px-6 py-3 bg-white text-blue-600 border-2 border-blue-600 rounded-lg font-semibold hover:bg-blue-50 transition-all"
+                  className="inline-flex items-center justify-center px-6 py-3 bg-white text-maroon border-2 border-maroon rounded-lg font-semibold hover:bg-blue-50 transition-all"
                 >
                   <Mail className="h-5 w-5 mr-2" />
                   Email Admissions

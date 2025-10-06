@@ -36,8 +36,8 @@ const Navbar = () => {
                 to={item.path}
                 className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
                   isActive(item.path)
-                    ? 'text-blue-600 bg-blue-50'
-                    : 'text-gray-700 hover:text-blue-600 hover:bg-gray-50'
+                    ? 'text-white bg-maroon'
+                    : 'text-gray-700 hover:text-maroon hover:bg-gray-50'
                 }`}
               >
                 {item.name}
@@ -45,7 +45,7 @@ const Navbar = () => {
             ))}
             <Link
               to="/contact"
-              className="px-6 py-2 bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-md text-sm font-medium hover:from-blue-600 hover:to-blue-700 transition-all hover:shadow-lg"
+              className="px-6 py-2 bg-gradient-to-r bg-maroon text-white rounded-md text-sm font-medium hover:bg-maroon transition-all hover:shadow-lg"
             >
               Join Now
             </Link>

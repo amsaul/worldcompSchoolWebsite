@@ -99,7 +99,7 @@ const Gallery = () => {
 
   return (
     <div className="animate-fade-in">
-      <section className="relative bg-gradient-to-br from-blue-600 to-cyan-500 text-white py-20">
+      <section className="relative bg-gradient-to-br bg-maroon text-white py-20">
         <div className="absolute inset-0 bg-black opacity-10"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6 animate-slide-up">Gallery</h1>
@@ -118,7 +118,7 @@ const Gallery = () => {
                 onClick={() => setSelectedCategory(category)}
                 className={`px-6 py-2 rounded-lg font-medium transition-all ${
                   selectedCategory === category
-                    ? 'bg-gradient-to-r from-blue-500 to-cyan-400 text-white shadow-lg'
+                    ? 'bg-gradient-to-r bg-maroon text-white shadow-lg'
                     : 'bg-white text-gray-700 hover:bg-gray-100 shadow'
                 }`}
               >
@@ -149,7 +149,7 @@ const Gallery = () => {
                     <p className="text-blue-200 text-sm">{image.category}</p>
                   </div>
                 </div>
-                <div className="absolute top-3 right-3 bg-gradient-to-r from-blue-500 to-cyan-400 text-white text-xs font-semibold px-3 py-1 rounded-full">
+                <div className="absolute top-3 right-3 bg-gradient-to-r bg-maroon text-white text-xs font-semibold px-3 py-1 rounded-full">
                   {image.category}
                 </div>
               </div>
