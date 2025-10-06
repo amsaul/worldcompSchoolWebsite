@@ -1,7 +1,9 @@
 import { Link } from 'react-router-dom';
 import { GraduationCap, Phone, Mail, UserRound, MapPin, Facebook, Twitter, Instagram, Youtube } from 'lucide-react';
+import { useState } from 'react';
 
 const Footer = () => {
+  const [showPopup, setShowPopup] = useState(false);
   return (
     <footer className="bg-gray-900 text-gray-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -115,8 +117,36 @@ const Footer = () => {
             &copy; {new Date().getFullYear()} Worldcomp Lenana Academy. All rights reserved.
           </p>
         </div>
-        <div>
-          <UserRound />
+        <div className="fixed bottom-4 right-4 mr-10">
+          {/* Online Support Icon (Headset SVG) */}
+          <svg
+            onClick={() => setShowPopup(true)}
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-10 w-10 text-maroon hover:text-orange-600 transition-transform transform hover:scale-110 cursor-pointer"
+            fill="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path d="M12 1C6.477 1 2 5.477 2 11v4a3 3 0 003 3h1v-6H5v-1a7 7 0 0114 0v1h-1v6h1a3 3 0 003-3v-4c0-5.523-4.477-10-10-10z" />
+            <path d="M9 19a3 3 0 006 0h-6z" />
+          </svg>
+
+           {/* Popup Message */}
+            {showPopup && (
+              <div className="absolute bottom-14 right-0 bg-white border border-blue-200 rounded-lg shadow-lg p-4 w-64 animate-fade-in">
+                <h3 className="text-lg font-semibold text-blue-600 mb-2">
+                  Online Support
+                </h3>
+                <p className="text-gray-700 text-sm">
+                  Our online support system is currently under construction.
+                </p>
+                <button
+                  onClick={() => setShowPopup(false)}
+                  className="mt-3 bg-blue-500 hover:bg-blue-600 text-white px-3 py-1 rounded-lg text-sm"
+                >
+                  Close
+                </button>
+              </div>
+            )}
         </div>
       </div>
     </footer>
