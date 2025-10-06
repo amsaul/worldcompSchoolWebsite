@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { GraduationCap, Phone, Mail, MapPin, Facebook, Twitter, Instagram, Youtube } from 'lucide-react';
+import { GraduationCap, Phone, Mail, UserRound, MapPin, Facebook, Twitter, Instagram, Youtube } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -61,11 +61,11 @@ const Footer = () => {
               </li>
               <li className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-maroon flex-shrink-0" />
-                <span className="text-sm">+254 710 383 439</span>
+                <span className="text-sm">+254 722 584 827</span>
               </li>
               <li className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-maroon flex-shrink-0" />
-                <span className="text-sm">info@worldcomplenanaacademy.edu</span>
+                <span className="text-sm">osbornbayo@gmail.com</span>
               </li>
             </ul>
           </div>
@@ -105,7 +105,7 @@ const Footer = () => {
             <div className="mt-6">
               <h5 className="text-white font-medium mb-2 text-sm">School Hours</h5>
               <p className="text-sm">Monday - Friday</p>
-              <p className="text-sm">8:00 AM - 3:30 PM</p>
+              <p className="text-sm">8:00 AM - 4:00 PM</p>
             </div>
           </div>
         </div>
@@ -114,6 +114,9 @@ const Footer = () => {
           <p className="text-sm">
             &copy; {new Date().getFullYear()} Worldcomp Lenana Academy. All rights reserved.
           </p>
+        </div>
+        <div>
+          <UserRound />
         </div>
       </div>
     </footer>

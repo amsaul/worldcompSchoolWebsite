@@ -26,13 +26,13 @@ const About = () => {
 
   const staff = [
     {
-      name: 'Dr. lorem Ipsum',
-      position: 'Principal',
+      name: 'Mr. Samuel Ochieng',
+      position: 'Headteacher',
       image: 'https://images.pexels.com/photos/3760263/pexels-photo-3760263.jpeg?auto=compress&cs=tinysrgb&w=400',
     },
     {
       name: 'Mr. Lorem Ipsum',
-      position: 'Vice Principal',
+      position: 'Deputy Headteacher',
       image: 'https://images.pexels.com/photos/3831645/pexels-photo-3831645.jpeg?auto=compress&cs=tinysrgb&w=400',
     },
     {
@@ -86,30 +86,25 @@ const About = () => {
             <div>
               <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">Our Story</h2>
               <p className="text-gray-600 mb-4 leading-relaxed">
-                Founded in 2024, Worldcomp Lenana Academy has been at the forefront of educational
-                excellence for over 2 years. What started as a community based school with over
-                200 students from diverse backgrounds.
+                Established in 2009, WorldComp Lenana Academy is a private, Christian-based institution
+                committed to bridging the gap between social statuses through exceptional education. Despite our
+                location in an underserved community, we maintain high educational standards to offer
+                transformative opportunities to all children
               </p>
               <p className="text-gray-600 mb-4 leading-relaxed">
-                Our journey has been marked by continuous innovation, dedication to student
-                success, and a commitment to creating a nurturing environment where every child
-                can discover their unique potential and pursue their dreams.
-              </p>
-              <p className="text-gray-600 leading-relaxed">
-                Today, we proudly stand as one of the region's most respected educational
-                institutions, recognized for our academic achievements, holistic approach to
-                education, and the success stories of our alumni who are making positive
-                contributions to society worldwide.
+                Currently, we serve 130 learners from diverse backgrounds, with approximately 100 children
+                receiving education completely free of charge. The modest fees paid by the families of the
+                remaining students help us maintain our operations and continue our mission.
               </p>
             </div>
             <div className="relative">
               <img
-                src="https://images.pexels.com/photos/8364026/pexels-photo-8364026.jpeg?auto=compress&cs=tinysrgb&w=800"
+                src="https://i.postimg.cc/mrnHwLhr/outside-school.jpg"
                 alt="School building"
                 className="rounded-2xl shadow-2xl"
               />
               <div className="absolute -bottom-6 -left-6 bg-maroon text-white p-6 rounded-xl shadow-xl">
-                <div className="text-4xl font-bold">2+</div>
+                <div className="text-4xl font-bold">16+</div>
                 <div className="text-sm">Years of Excellence</div>
               </div>
             </div>
@@ -128,10 +123,8 @@ const About = () => {
                 <h2 className="text-2xl md:text-3xl font-bold text-gray-800 ml-4">Our Mission</h2>
               </div>
               <p className="text-gray-600 leading-relaxed">
-                To provide a world-class education that empowers students with knowledge, skills,
-                and values necessary to become responsible global citizens. We are committed to
-                fostering critical thinking, creativity, and a lifelong love of learning in a
-                safe and supportive environment.
+                To prepare each child for life through quality education, valuing it as a tool to shape and
+                model learners for their future.
               </p>
             </div>
 
@@ -143,10 +136,8 @@ const About = () => {
                 <h2 className="text-2xl md:text-3xl font-bold text-gray-800 ml-4">Our Vision</h2>
               </div>
               <p className="text-gray-600 leading-relaxed">
-                To be a leading educational institution recognized for academic excellence,
-                innovation in teaching, and the holistic development of students. We envision a
-                future where our graduates are confident, compassionate leaders who make positive
-                contributions to their communities and the world.
+                To create a dynamic environment where learners value education and discover their
+                potential for positive change.
               </p>
             </div>
           </div>

@@ -60,12 +60,12 @@ const handleSubmit = async (e: FormEvent) => {
     {
       icon: Phone,
       title: 'Phone',
-      details: ['+25471 038-3439', '+25471 038-3439'],
+      details: ['+25472-258-4827', '+25470-349-6023'],
     },
     {
       icon: Mail,
       title: 'Email',
-      details: ['info@worldcomplenanaacademy.edu', 'admissions@worldcomplenanaacademy.edu'],
+      details: ['osbornbayo@gmail.com', 'osbornbayo@gmail.com'],
     },
     {
       icon: Clock,
@@ -200,7 +200,7 @@ const handleSubmit = async (e: FormEvent) => {
                   <button
                     type="submit"
                     disabled={isSubmitting}
-                    className="w-full bg-gradient-to-r bg-maroon text-white py-4 rounded-lg font-semibold hover:from-blue-600 hover:to-cyan-500 transition-all hover:shadow-lg transform hover:-translate-y-1 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center"
+                    className="w-full bg-gradient-to-r bg-maroon text-white py-4 rounded-lg font-semibold hover:bg-maroon transition-all hover:shadow-lg transform hover:-translate-y-1 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center"
                   >
                     {isSubmitting ? (
                       <>
@@ -276,14 +276,14 @@ const handleSubmit = async (e: FormEvent) => {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
-                  href="tel:+254710383439"
+                  href="tel:+254722584827"
                   className="inline-flex items-center justify-center px-6 py-3 bg-maroon text-white rounded-lg font-semibold hover:bg-maroon-100 transition-all"
                 >
                   <Phone className="h-5 w-5 mr-2" />
                   Call Us Now
                 </a>
                 <a
-                  href="mailto:admissions@worldcomplenanaacademy.edu"
+                  href="mailto:osbornbayo@gmail.com"
                   className="inline-flex items-center justify-center px-6 py-3 bg-white text-maroon border-2 border-maroon rounded-lg font-semibold hover:bg-blue-50 transition-all"
                 >
                   <Mail className="h-5 w-5 mr-2" />

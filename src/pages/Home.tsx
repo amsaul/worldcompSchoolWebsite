@@ -69,15 +69,15 @@ const Home = () => {
                 to="/contact"
                 className="inline-flex items-center justify-center px-8 py-4 bg-white text-maroon rounded-lg font-semibold hover:bg-blue-50 transition-all hover:shadow-xl transform hover:-translate-y-1"
               >
-                Join Now
+                Admission Ongoing
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
-              <Link
+              {/* <Link
                 to="/about"
                 className="inline-flex items-center justify-center px-8 py-4 bg-transparent border-2 border-white text-white rounded-lg font-semibold hover:bg-white hover:text-maroon transition-all"
               >
                 Learn More
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>
@@ -94,11 +94,11 @@ const Home = () => {
               </div> */}
               <div className="flex-1 justify-center align-center">
                 <h2 className="text-2xl md:text-3xl text-center font-bold text-gray-800 mb-4">
-                  A Message from Our Principal
+                  A Message from Our Headteacher
                 </h2>
-                <iframe className="rounded-2xl" allow="fullscreen;autoplay"  height="478" src="https://streamable.com/e/fhcvcn?autoplay=1&muted=1" width="100%"></iframe>
+                <iframe allow="fullscreen;autoplay" height="394" src="https://streamable.com/e/kslq5n?autoplay=1&muted=1" width="100%" ></iframe>
                 <p className="text-gray-600 italic">
-                  — Dr. Lorem Ipsum, Principal
+                  — Mr. Samuel Ochieng, Headteacher
                 </p>
               </div>
             </div>
