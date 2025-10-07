@@ -65,7 +65,7 @@ const handleSubmit = async (e: FormEvent) => {
     {
       icon: Mail,
       title: 'Email',
-      details: ['osbornbayo@gmail.com', 'osbornbayo@gmail.com'],
+      details: ['obayoerick300@gmail.com', 'obayoerick300@gmail.com'],
     },
     {
       icon: Clock,
