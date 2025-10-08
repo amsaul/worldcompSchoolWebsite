@@ -26,13 +26,13 @@ const About = () => {
 
   const staff = [
     {
-      name: 'Mr. Samuel Ochieng',
-      position: 'Headteacher',
-      image: 'https://images.pexels.com/photos/3760263/pexels-photo-3760263.jpeg?auto=compress&cs=tinysrgb&w=400',
+      name: 'Mr. Osborn Obayo',
+      position: 'CEO',
+      image: 'https://i.postimg.cc/m21TYS9S/Whats-App-Image-2025-10-08-at-05-22-13.jpg',
     },
     {
-      name: 'Mr. Lorem Ipsum',
-      position: 'Deputy Headteacher',
+      name: 'Mr. Samuel Ochieng',
+      position: 'Headteacher',
       image: 'https://images.pexels.com/photos/3831645/pexels-photo-3831645.jpeg?auto=compress&cs=tinysrgb&w=400',
     },
     {
